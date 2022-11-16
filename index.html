@@ -1,53 +1,84 @@
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title> Teste </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title> Teste </title>
 </head>
+
 <body>
-    <nav>
-        <a href="#"> LOGO </a>
-        <ul>
-           <li> Blusas </li>
-           <li> Calças </li>
-           <li> Acessorios </li>
-           <li> Sobre </li>
-           <li> Contato </li>
-        </ul>
-    </nav>
-
-    <ul class="slider">
-        <li>
-            <input type="radio" id="slide1" name="slide" checked>
-            <label for="slide1"></label>
-            <img src="images/1.jpg" />
-        </li>
-        <li>
-            <input type="radio" id="slide2" name="slide">
-            <label for="slide2"></label>
-            <img src="images/2.jpg" />
-        </li>
-        <li>
-            <input type="radio" id="slide3" name="slide">
-            <label for="slide3"></label>
-            <img src="images/3.jpg" />
-        </li>
+  <nav>
+    <a href="/"> LOGO </a>
+    <ul>
+      <li> <a href="/"> Blusas </a> </li>
+      <li> <a href="/"> Camisas </a> </li>
+      <li> <a href="/"> Calças </a> </li>
+      <li> <a href="/"> Calçados </a> </li>
+      <li> <a href="/"> Acessorios </a> </li>
     </ul>
+  </nav>
 
+  <div class="slider">
 
-
-    <div class="products">
-        <button> Ver mais + </button>
-        <div class="cards"><p>destaque</p></div>
-        <div class="cards"><p>destaque</p></div>
-        <div class="cards"><p>destaque</p></div>
-        <div class="cards"><p>destaque</p></div>
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
     </div>
 
-    <div class="footer">
-        <div class="cards"><p>destaque</p></div>
+    <div class="slide first">
+      <img src="./images/1.png" alt="">
     </div>
+    <div class="slide">
+      <img src="./images/2.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="./images/3.png" alt="">
+    </div>
+    <div class="slide">
+      <img src="./images/4.png" alt="">
+    </div>
+
+    <div class="navigation-auto">
+      <div class="aut-btn1"></div>
+      <div class="aut-btn2"></div>
+      <div class="aut-btn3"></div>
+      <div class="aut-btn4"></div>
+    </div>
+
+  </div>
+
+  <div class="manual-navgation">
+    <label for="radio1" class="manual-bts"></label>
+    <label for="radio2" class="manual-bts"></label>
+    <label for="radio3" class="manual-bts"></label>
+    <label for="radio4" class="manual-bts"></label>
+  </div>
+
+  <div class="products">
+    <button> Ver mais + </button>
+    <div class="cards">
+      <p>destaque</p>
+    </div>
+    <div class="cards">
+      <p>destaque</p>
+    </div>
+    <div class="cards">
+      <p>destaque</p>
+    </div>
+    <div class="cards">
+      <p>destaque</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="cards">
+      <p>destaque</p>
+    </div>
+  </div>
 </body>
+
 </html>
